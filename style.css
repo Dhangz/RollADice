@@ -1,0 +1,74 @@
+body{
+  background-color: rgba(255, 255, 255, 0.842);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  padding: 70px 0 ;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+  max-width: 500px;
+  height: 500px;
+  margin: auto;
+  border-radius: 10px;
+  background-color: #cfcbcb;
+  position: relative;
+  box-shadow: 0 0 2px 1px rgb(0, 0, 0, 0.4);
+}
+.container h1{
+  border-radius: 10px 10px 0 0;
+  margin-top: 15px;
+  font-weight: 900;
+}
+
+.image-container{
+  border: 3px solid black;
+  background-color: white;
+  position: absolute;
+  width: 80%;
+  height: 50%;
+  left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  column-count: 3;
+}
+
+.controller{
+  position: absolute;
+  bottom: 140px;
+  left: 190px;
+  font-weight: 700;
+}
+
+.controller input[type='number']{ 
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+  text-align: center;
+  width: 30px;
+}
+
+#RollDice{
+  padding: 10px 80px;
+  position: absolute;
+  bottom: 70px;
+  left: 160px;
+  background-color: white;
+  border-radius: 50px;
+  border: 1px solid black;
+  box-shadow: 0 0 2px 1px rgb(0, 0, 0, 0.3);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 800;
+  transition: background-color 0.3s ease-in-out;
+
+}
+
+#RollDice:hover{
+  background-color: black;
+  color: white;
+  box-shadow: 0 0 2px 1px rgb(255, 255, 255, 0.7);
+}

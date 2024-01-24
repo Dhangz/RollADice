@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Document</title>
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <div class="container">
+        <h1>Dice R🎲ller</h1>
+
+        <div class="image-container">
+          <div class="imageDisplay"></div>
+        </div>
+        <div id="NoDisplay"></div>
+
+        <div class="controller">
+          <label for="">Dice No.</label>
+          <input id="NoDice" type="number" max="6" min="1" value="1">
+        </div> 
+        
+        <button onclick="RollDIce()" id="RollDice"> Roll </button>
+
+      </div>
+      <script src="scripts.js"></script>
+    </body>
+</html>
